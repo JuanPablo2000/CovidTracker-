@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.app{
+  background-color: #f5f6fa;
+  display: flex;
+  flex-wrap: wrap;
+}
+.app__top {
+  display: flex;
+  align-items: center;
+  width: 93%;
+  justify-content: space-between;
+}
+.app__info{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+    overflow-x: hidden;
+    margin: 15px 30px;
+    background-color: #f5f6fa;
+}
+.selectimg, .worldemoji{
+  width: 25px;
+  margin-left: 5px;
+}
+h2{
+  font-family: 'Poppins';
+  font-size: 20px;
+  margin: 10px;
+  align-items: center;
+  padding: 15px;
+}
+.app__formcontrol{
+  margin-right: 15px;
+  
+}
+.cards{
+  display:  flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+.mapcontainer{
+  display: flex;
+  width: 100%;
+}
+.inforight {
+  width: 30%;
+  text-align: center;
+  margin: 20px auto;
+}
+.app__container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: baseline;
+ margin-top: 10px;
+}
+.wwnew{
+  margin-top: 15px;
+}
+@media(max-width:1199px){
+  .app__info{
+     width:  90%
+    }
+    .inforight {
+      width: 80%;
+     
+  }
+ 
+}
+
+@media(max-width:770px){
+ .cards{
+   flex-direction: column;
+ }
+ .topcards{
+  width: 90%;
+  margin: 20px;
+ }
+}
+@media(max-width:555px){
+  .app__top{
+    flex-direction: column;
+  }
+  h2{
+    text-align: center;
+  }
+  h1{
+    text-align: center;
+  }
+  .header__container {
+    display: flex;
+    justify-content: space-between;
+    /* width: 94%; */
+    margin: 0 auto;
+    padding: 15px;
+}
+}

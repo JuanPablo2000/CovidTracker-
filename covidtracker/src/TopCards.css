@@ -1,0 +1,56 @@
+.topcards{
+    display: flex;
+flex: 1;
+    cursor: pointer;
+    justify-content: center;
+    align-self: center;
+}
+.topcards__card{
+height: 150px;
+text-align: center;
+width: 60%;
+}
+.topcards__cases{
+    color: #cc1034;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+
+  }
+  .topcards__ptotal{
+      margin-left: 15px;
+  }
+  .topcards__total{
+      
+      color: #6c757d;
+        font-weight: 700!important;
+        font-size: 0.8rem!important;
+        margin-top: 15px!important;
+        
+    }
+
+    .MuiPaper-root.MuiCard-root.topcards__card.MuiPaper-elevation1.MuiPaper-rounded {
+        height: 182px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .topcard--selected{
+        border-top: 10px solid black;
+    }
+    .topcard--red{
+        border-color: red;
+        color: red;
+    }
+    .topcard--green{
+border-color: lawngreen;
+color: lawngreen;
+
+    }
+    .topcard--yellow{
+        border-color: gold;
+        color: gold;
+    }
+    .topcard__cases--green{
+        color: lightgreen!important;
+    }
